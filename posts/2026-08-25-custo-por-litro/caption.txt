@@ -1,0 +1,21 @@
+Pergunta rápida: quanto custa o litro da sua última brassagem?
+
+A maioria das planilhas responde isso dividindo o custo dos insumos pelo volume brassado. O problema é que você não vende o volume brassado — vende o que sobrou depois da adega e do envase.
+
+No lote AIP-05 do nosso demo, a diferença aparece assim:
+
+→ 1.910 L envasados
+→ 90 L de perda (4,5%)
+→ R$ 4,46 de custo por litro
+→ R$ 8.324,70 de custo total
+
+Aqueles 90 litros você já pagou: malte, lúpulo, energia, mão de obra, CIP. Só não vai faturar.
+
+Somando o custo fixo rateado, o vasilhame certo e as adições de adega, o número muda o suficiente pra mudar o seu preço de venda.
+
+Deslize pra ver os quatro custos que costumam ficar de fora — e comente qual deles a sua planilha esquece.
+
+.
+.
+.
+#cervejaria #microcervejaria #cervejaartesanal #mestrecervejeiro #producaodecerveja #gestaodecervejaria #custodeproducao #brassagem #envase #cervejeiro #craftbeerbrasil #gestaoindustrial #beerops

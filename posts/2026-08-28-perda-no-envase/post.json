@@ -1,0 +1,109 @@
+{
+  "titulo": "Os litros que você paga e não fatura",
+  "pilar": "ensina",
+  "status": "draft",
+  "scheduledAt": "2026-08-28T12:00:00-03:00",
+
+  "slides": [
+    {
+      "type": "capa",
+      "kicker": "envase",
+      "title": "Os litros que você **paga** e não fatura",
+      "lede": "A perda no envase quase sempre entra na conta pelo lado errado.",
+      "alt": "Capa do carrossel com o texto: os litros que você paga e não fatura."
+    },
+    {
+      "type": "texto",
+      "kicker": "dois números",
+      "title": "Parecem o mesmo número. Não são.",
+      "items": [
+        {
+          "text": "Litros que saíram do tanque",
+          "note": "É o volume que a adega registra quando a sessão de envase abre."
+        },
+        {
+          "text": "Litros que viraram vasilhame",
+          "note": "É a soma do que realmente foi enchido: lata, garrafa, PET e barril."
+        },
+        {
+          "text": "A diferença é a perda",
+          "note": "Espuma, purga, ajuste da enchedora, o fundo do tanque e a sobra de linha."
+        }
+      ],
+      "alt": "Lista explicando a diferença entre litros que saem do tanque e litros que viram vasilhame."
+    },
+    {
+      "type": "dado",
+      "accent": "red",
+      "kicker": "uma sessão comum",
+      "value": "27 L",
+      "unit": "de perda",
+      "caption": "Numa sessão de envase de 1.000 litros, 27 saíram do tanque e não chegaram a nenhum vasilhame.",
+      "delta": "2,7% DO LOTE, EM UMA ÚNICA SESSÃO",
+      "alt": "Número grande: 27 litros de perda numa sessão de envase de mil litros."
+    },
+    {
+      "type": "dado",
+      "kicker": "a conta muda de lado",
+      "value": "R$ 7,50",
+      "unit": "por litro",
+      "caption": "O mesmo lote sai a R$ 7,30/L se você dividir pelos litros do tanque — e a R$ 7,50/L se dividir pelos litros que viraram vasilhame.",
+      "delta": "SÓ A SEGUNDA CONTA ENXERGA A PERDA",
+      "alt": "Número grande: R$ 7,50 por litro, custo real quando a perda entra na conta."
+    },
+    {
+      "type": "antes-depois",
+      "kicker": "a escolha do denominador",
+      "title": "Dividir o custo por qual número?",
+      "leftLabel": "Pelos litros do tanque",
+      "rightLabel": "Pelos litros envasados",
+      "left": [
+        "A perda sai de graça na conta",
+        "O custo por litro fica subestimado",
+        "Margem parece maior do que é",
+        "O erro cresce junto com a perda"
+      ],
+      "right": [
+        "A perda é paga pelos litros que sobraram",
+        "O custo por litro é o que você vai precificar",
+        "Margem bate com o extrato no fim do mês",
+        "Sessão ruim aparece no custo do lote"
+      ],
+      "alt": "Comparação entre dividir o custo pelos litros do tanque ou pelos litros envasados."
+    },
+    {
+      "type": "shot",
+      "kicker": "dentro do sistema",
+      "title": "A perda fica na lista, não no fim do mês",
+      "url": "app.beerops.com.br/delivery",
+      "image": "producao.png",
+      "note": "Cada lote carrega o próprio percentual de perda. O APA-04 saiu com 11,3% enquanto os outros ficaram entre 1,5% e 6% — dá pra ir atrás do motivo enquanto alguém ainda lembra do que aconteceu.",
+      "alt": "Tela da lista de lotes do BeerOps com a coluna de percentual de perda, destacando o lote APA-04 com 11,3 por cento."
+    },
+    {
+      "type": "cta",
+      "title": "Veja a perda dos seus lotes",
+      "lede": "A demonstração é aberta, não pede cadastro e usa dados de exemplo.",
+      "url": "beerops.com.br",
+      "proof": "3 CERVEJARIAS OPERANDO EM PRODUÇÃO",
+      "alt": "Slide final com o endereço beerops.com.br e o convite para ver a demonstração."
+    }
+  ],
+
+  "caption": "Existe um detalhe de cálculo que muda o custo de todo lote da sua cervejaria, e ele cabe numa pergunta: você divide o custo por quais litros?\n\nQuando a sessão de envase abre, o sistema registra o volume que saiu do tanque. Quando ela fecha, existe outro número: a soma do que de fato foi enchido em lata, garrafa, PET e barril.\n\nEsses dois números não batem. A diferença é a perda de envase — espuma, purga, ajuste de enchedora, fundo de tanque.\n\nNum lote de 1.000 litros com 27 de perda:\n\n→ dividindo pelos litros do tanque: R$ 7,30/L\n→ dividindo pelos litros envasados: R$ 7,50/L\n\nOs 20 centavos de diferença são a perda sendo paga por quem sobrou. Na primeira conta ela some — e some justamente no lote em que ela foi maior, que é quando você mais precisaria enxergar.\n\nQual foi a maior perda de envase que você já teve numa sessão? Conta aí.",
+
+  "hashtags": [
+    "#cervejaria",
+    "#microcervejaria",
+    "#cervejaartesanal",
+    "#envase",
+    "#mestrecervejeiro",
+    "#producaodecerveja",
+    "#gestaodecervejaria",
+    "#custodeproducao",
+    "#cervejeiro",
+    "#craftbeerbrasil",
+    "#perdadeproducao",
+    "#beerops"
+  ]
+}

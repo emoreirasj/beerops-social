@@ -1,0 +1,18 @@
+Três telas, um lote, nenhuma redigitação.
+
+1. Adega — o cervejeiro aponta densidade e temperatura do tanque. O sistema calcula atenuação e ABV estimado, e avisa quando um tanque está sem leitura há dias.
+
+2. Envase — a sessão fecha e o lote entra na lista com volume, perda e data. Nada disso é digitado de novo: sai do que já foi apontado.
+
+3. Relatório — custo por litro, linha do tempo, fermentação e adega na mesma tela, com PDF pronto.
+
+O lote AIP-05 da demonstração levou 23 dias entre brassagem e envase: 9 horas de produção, 21 dias de adega, 5 horas de envase. Esses números não foram preenchidos por ninguém — são a diferença entre os apontamentos.
+
+É isso que muda quando o sistema é o mesmo em que a produção acontece, em vez de uma planilha que alguém alimenta depois.
+
+Hoje, quanto tempo você leva pra saber o custo de um lote que acabou de ser envasado?
+
+.
+.
+.
+#cervejaria #microcervejaria #cervejaartesanal #mestrecervejeiro #producaodecerveja #gestaodecervejaria #adega #fermentacao #envase #cervejeiro #craftbeerbrasil #softwareparacervejaria #beerops

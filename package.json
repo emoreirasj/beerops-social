@@ -1,0 +1,15 @@
+{
+  "name": "beerops-social",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Gerador de carrosseis do Instagram do BeerOps — HTML + Playwright, publicado no Cloudflare Pages e postado via Make.",
+  "scripts": {
+    "render": "node src/render.mjs",
+    "render:all": "node src/render.mjs --all",
+    "shots": "node src/shots.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.60.0"
+  }
+}

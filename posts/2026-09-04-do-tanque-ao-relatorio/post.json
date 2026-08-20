@@ -1,0 +1,98 @@
+{
+  "titulo": "Do tanque ao relatório sem redigitar nada",
+  "pilar": "produto",
+  "status": "draft",
+  "scheduledAt": "2026-09-04T12:00:00-03:00",
+
+  "slides": [
+    {
+      "type": "capa",
+      "kicker": "por dentro do beerops",
+      "title": "Do tanque ao relatório **sem redigitar** nada",
+      "lede": "O mesmo apontamento que o cervejeiro faz na adega fecha o custo do lote.",
+      "alt": "Capa do carrossel com o texto: do tanque ao relatório sem redigitar nada."
+    },
+    {
+      "type": "shot",
+      "kicker": "passo 1 · adega",
+      "title": "Começa na leitura do tanque",
+      "url": "app.beerops.com.br/cellar",
+      "image": "adega.png",
+      "note": "Densidade, temperatura e atenuação por tanque. O MT-01 já está marcado com FG atingido, e o FV-02 avisa que está sem leitura há 2 dias.",
+      "alt": "Tela da adega do BeerOps mostrando seis tanques com densidade, temperatura e status de fermentação."
+    },
+    {
+      "type": "shot",
+      "kicker": "passo 2 · envase",
+      "title": "O lote fecha e entra na lista",
+      "url": "app.beerops.com.br/delivery",
+      "image": "producao.png",
+      "note": "Volume, perda e data saem do que já foi apontado na produção e no envase. Ninguém digita de novo.",
+      "alt": "Tela da lista de lotes do BeerOps com volume, percentual de perda e data de cada lote."
+    },
+    {
+      "type": "shot",
+      "kicker": "passo 3 · relatório",
+      "title": "O relatório já está pronto",
+      "url": "app.beerops.com.br/delivery/AIP-05",
+      "image": "relatorio-aip05.png",
+      "note": "Custo por litro, perda, linha do tempo e fermentação na mesma tela — e um PDF para mandar pra quem pediu.",
+      "alt": "Tela do relatório de produção do lote AIP-05 com custo por litro, linha do tempo e fermentação."
+    },
+    {
+      "type": "dado",
+      "kicker": "lote aip-05",
+      "value": "23 dias",
+      "unit": "brassagem → envase",
+      "caption": "9 horas de produção, 21 dias de adega e 5 horas de envase. A linha do tempo é montada a partir dos apontamentos, não digitada por ninguém.",
+      "delta": "1.910 L ENVASADOS · R$ 4,46/L",
+      "alt": "Número grande: 23 dias entre a brassagem e o envase do lote AIP-05."
+    },
+    {
+      "type": "texto",
+      "kicker": "o que muda",
+      "title": "Por que isso importa numa cervejaria pequena",
+      "items": [
+        {
+          "text": "O apontamento vira dado no mesmo instante",
+          "note": "Quem está na produção registra uma vez, e o custo do lote já se move."
+        },
+        {
+          "text": "O erro de digitação some junto com a redigitação",
+          "note": "Não existe planilha paralela para divergir da produção."
+        },
+        {
+          "text": "O relatório existe no dia do envase",
+          "note": "Não é um fechamento que alguém precisa sentar e montar no fim do mês."
+        }
+      ],
+      "alt": "Lista com três motivos pelos quais eliminar a redigitação importa numa cervejaria pequena."
+    },
+    {
+      "type": "cta",
+      "title": "Percorra esse caminho você mesmo",
+      "lede": "A demonstração é aberta, não pede cadastro e usa dados de exemplo.",
+      "url": "beerops.com.br",
+      "proof": "3 CERVEJARIAS OPERANDO EM PRODUÇÃO",
+      "alt": "Slide final com o endereço beerops.com.br e o convite para ver a demonstração."
+    }
+  ],
+
+  "caption": "Três telas, um lote, nenhuma redigitação.\n\n1. Adega — o cervejeiro aponta densidade e temperatura do tanque. O sistema calcula atenuação e ABV estimado, e avisa quando um tanque está sem leitura há dias.\n\n2. Envase — a sessão fecha e o lote entra na lista com volume, perda e data. Nada disso é digitado de novo: sai do que já foi apontado.\n\n3. Relatório — custo por litro, linha do tempo, fermentação e adega na mesma tela, com PDF pronto.\n\nO lote AIP-05 da demonstração levou 23 dias entre brassagem e envase: 9 horas de produção, 21 dias de adega, 5 horas de envase. Esses números não foram preenchidos por ninguém — são a diferença entre os apontamentos.\n\nÉ isso que muda quando o sistema é o mesmo em que a produção acontece, em vez de uma planilha que alguém alimenta depois.\n\nHoje, quanto tempo você leva pra saber o custo de um lote que acabou de ser envasado?",
+
+  "hashtags": [
+    "#cervejaria",
+    "#microcervejaria",
+    "#cervejaartesanal",
+    "#mestrecervejeiro",
+    "#producaodecerveja",
+    "#gestaodecervejaria",
+    "#adega",
+    "#fermentacao",
+    "#envase",
+    "#cervejeiro",
+    "#craftbeerbrasil",
+    "#softwareparacervejaria",
+    "#beerops"
+  ]
+}

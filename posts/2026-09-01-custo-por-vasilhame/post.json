@@ -1,0 +1,116 @@
+{
+  "titulo": "Lata, garrafa, PET e inox não custam a mesma coisa",
+  "pilar": "ensina",
+  "status": "draft",
+  "scheduledAt": "2026-09-01T12:00:00-03:00",
+  "nota": "Depende do deploy da secao Custo por Vasilhame (ver memoria project_container_costs). Nao ha slide de produto porque a secao ainda nao esta no /demo — o post fala do conceito, e o BeerOps so aparece no CTA.",
+
+  "slides": [
+    {
+      "type": "capa",
+      "kicker": "custo por vasilhame",
+      "title": "Lata, garrafa, PET e inox **não custam** a mesma coisa",
+      "lede": "E o custo médio do lote esconde exatamente essa diferença.",
+      "alt": "Capa do carrossel com o texto: lata, garrafa, PET e inox não custam a mesma coisa."
+    },
+    {
+      "type": "texto",
+      "kicker": "de onde vem a diferença",
+      "title": "O litro do lote se divide em duas partes",
+      "items": [
+        {
+          "text": "A parte comum, igual para todo mundo",
+          "note": "Insumos e custo fixo do lote, rateados pelo total de litros envasados."
+        },
+        {
+          "text": "A parte do vasilhame, que muda em cada linha",
+          "note": "Lata, tampa, rótulo, garrafa, caixa — cada embalagem tem o próprio material."
+        },
+        {
+          "text": "O barril inox não consome material",
+          "note": "É ativo retornável: não é gasto no envase, então a linha dele carrega só a parte comum."
+        },
+        {
+          "text": "O PET, sim",
+          "note": "Barril PET é descartável, entra como material e pesa no custo do litro."
+        }
+      ],
+      "alt": "Lista explicando que o custo por litro se divide entre uma parte comum e o material de cada vasilhame."
+    },
+    {
+      "type": "antes-depois",
+      "kicker": "duas formas de olhar",
+      "title": "Custo médio do lote ou custo por vasilhame?",
+      "leftLabel": "Custo médio",
+      "rightLabel": "Por vasilhame",
+      "left": [
+        "Um número só para o lote inteiro",
+        "Lata e barril parecem custar igual",
+        "O preço de cada formato vira chute",
+        "Dá para saber se o lote fechou, não qual formato fechou"
+      ],
+      "right": [
+        "Uma linha por vasilhame e tamanho",
+        "A diferença entre lata e barril aparece",
+        "Custo por unidade sai pronto para precificar",
+        "Dá para saber qual formato está puxando a margem"
+      ],
+      "alt": "Comparação entre olhar o custo médio do lote e o custo separado por vasilhame."
+    },
+    {
+      "type": "dado",
+      "kicker": "o barril que parece de graça",
+      "value": "R$ 1,03",
+      "unit": "por litro",
+      "caption": "Foi o quanto o custo fixo rateado pesou no litro do barril inox num lote de referência — dentro de um custo de R$ 2,33 por litro.",
+      "delta": "MATERIAL ZERO NÃO É CUSTO ZERO",
+      "alt": "Número grande: R$ 1,03 por litro de custo fixo rateado no barril inox."
+    },
+    {
+      "type": "texto",
+      "kicker": "o que muda na prática",
+      "title": "O número que forma o preço não é o custo por litro",
+      "items": [
+        {
+          "text": "É o custo por unidade",
+          "note": "Ninguém vende litro: vende a lata de 473 ml, a garrafa de 600, o barril de 30 ou 50."
+        },
+        {
+          "text": "Higienização e retorno já estão pagos",
+          "note": "Entram pelo custo fixo do lote, dentro da parte comum — o inox não sai de graça."
+        },
+        {
+          "text": "Rótulo e tampa perdidos também contam",
+          "note": "O que se estraga na linha é material que saiu do estoque e não virou produto."
+        }
+      ],
+      "alt": "Lista sobre o custo por unidade ser o número usado para formar preço de venda."
+    },
+    {
+      "type": "cta",
+      "title": "Quanto custa cada formato que você vende?",
+      "lede": "A demonstração é aberta, não pede cadastro e usa dados de exemplo.",
+      "url": "beerops.com.br",
+      "proof": "3 CERVEJARIAS OPERANDO EM PRODUÇÃO",
+      "alt": "Slide final com o endereço beerops.com.br e o convite para ver a demonstração."
+    }
+  ],
+
+  "caption": "Um lote de 2.000 litros vira lata, garrafa, PET e barril inox. Quanto custa o litro de cada um?\n\nSe a resposta for \"o mesmo\", tem dinheiro escondido em algum formato.\n\nO custo do litro se divide em duas partes. A primeira é comum: insumos e custo fixo do lote, rateados pelo total envasado. A segunda muda em cada linha — é o material da embalagem. Lata puxa tampa e rótulo. Garrafa puxa caixa. Barril PET é descartável e entra inteiro no custo.\n\nO barril inox é o caso que confunde: ele não consome material nenhum, porque é ativo retornável. Só que isso não faz dele gratuito. Num lote de referência, o custo fixo rateado colocou R$ 1,03 no litro do inox, dentro de R$ 2,33 no total. Higienização, depreciação e logística de retorno estão pagos ali dentro.\n\nE o número que interessa para formar preço não é o custo por litro: é o custo por unidade. Ninguém vende litro — vende a lata de 473 ml e o barril de 30.\n\nVocê precifica cada formato separado ou aplica a mesma margem em todos?",
+
+  "hashtags": [
+    "#cervejaria",
+    "#microcervejaria",
+    "#cervejaartesanal",
+    "#envase",
+    "#embalagem",
+    "#mestrecervejeiro",
+    "#producaodecerveja",
+    "#gestaodecervejaria",
+    "#custodeproducao",
+    "#precificacao",
+    "#cervejeiro",
+    "#craftbeerbrasil",
+    "#beerops"
+  ]
+}

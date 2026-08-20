@@ -1,0 +1,105 @@
+{
+  "titulo": "No dia 1º, o mês anterior já está fechado",
+  "pilar": "produto",
+  "status": "draft",
+  "scheduledAt": "2026-09-08T12:00:00-03:00",
+
+  "slides": [
+    {
+      "type": "capa",
+      "kicker": "relatório mensal",
+      "title": "No dia 1º, o mês anterior **já está** fechado",
+      "lede": "Sem ninguém pedir, sem ninguém montar.",
+      "alt": "Capa do carrossel com o texto: no dia 1º, o mês anterior já está fechado."
+    },
+    {
+      "type": "texto",
+      "kicker": "o que vem dentro",
+      "title": "O que o relatório traz",
+      "items": [
+        {
+          "text": "Litros envasados no mês",
+          "note": "O total que virou vasilhame de verdade, não o que saiu dos tanques."
+        },
+        {
+          "text": "Lotes concluídos",
+          "note": "Quantos fecharam de fato no período."
+        },
+        {
+          "text": "Comparação com o mês anterior",
+          "note": "Se o envase subiu ou caiu, e quanto."
+        },
+        {
+          "text": "Ocorrências e alertas",
+          "note": "O que saiu da linha no mês e ficou registrado junto com o lote."
+        }
+      ],
+      "alt": "Lista com o conteúdo do relatório mensal: litros envasados, lotes concluídos, comparação e ocorrências."
+    },
+    {
+      "type": "shot",
+      "kicker": "dentro do sistema",
+      "title": "Chega pronto, com PDF",
+      "url": "app.beerops.com.br/reports",
+      "image": "relatorios-ia.png",
+      "note": "Um cartão por mês, gerado automaticamente no dia 1º às 6h. O de junho saiu com 2 alertas — e continua lá pra consultar em dezembro.",
+      "alt": "Tela de relatórios mensais do BeerOps com os cartões de junho e maio de 2026 e botão de baixar PDF."
+    },
+    {
+      "type": "dado",
+      "accent": "hop",
+      "kicker": "junho na demonstração",
+      "value": "11,2k",
+      "unit": "litros envasados",
+      "caption": "7 lotes concluídos e 21% a mais de envase que no mês anterior. Números do relatório de exemplo da demonstração.",
+      "delta": "GERADO EM 01/07 ÀS 06:00, SEM NINGUÉM PEDIR",
+      "alt": "Número grande: 11,2 mil litros envasados em junho no relatório de exemplo."
+    },
+    {
+      "type": "texto",
+      "kicker": "por que agendado",
+      "title": "Relatório que depende de alguém lembrar não existe",
+      "items": [
+        {
+          "text": "O fechamento não disputa espaço com a produção",
+          "note": "Ninguém precisa parar a semana pra montar o mês que passou."
+        },
+        {
+          "text": "A série histórica se forma sozinha",
+          "note": "Doze meses depois você tem doze relatórios, não uma pasta com três."
+        },
+        {
+          "text": "A comparação fica honesta",
+          "note": "Todo mês é calculado do mesmo jeito, na mesma data."
+        }
+      ],
+      "alt": "Lista com três motivos para o relatório mensal ser gerado automaticamente."
+    },
+    {
+      "type": "cta",
+      "title": "Veja um relatório mensal de verdade",
+      "lede": "A demonstração é aberta, não pede cadastro e usa dados de exemplo.",
+      "url": "beerops.com.br",
+      "proof": "3 CERVEJARIAS OPERANDO EM PRODUÇÃO",
+      "alt": "Slide final com o endereço beerops.com.br e o convite para ver a demonstração."
+    }
+  ],
+
+  "caption": "Todo dia 1º, às 6 da manhã, o relatório do mês anterior já existe.\n\nLitros envasados, lotes concluídos, comparação com o mês passado, ocorrências registradas. Com PDF pronto pra mandar pro contador, pro sócio ou pra quem financiou o tanque novo.\n\nNa demonstração, junho fechou assim:\n\n→ 11,2 mil litros envasados\n→ 7 lotes concluídos\n→ 21% a mais de envase que maio\n→ 2 alertas no período\n\nO ponto não é o relatório em si — é ele não depender de alguém lembrar. Fechamento que compete com a produção pela mesma semana costuma perder, e aí o histórico da cervejaria vira uma pasta com três meses soltos em vez de uma série que dá pra comparar.\n\nQuando o mês seguinte começa, o anterior já está fechado do mesmo jeito que todos os outros.\n\nVocê fecha o mês da sua cervejaria com que frequência, de verdade?",
+
+  "hashtags": [
+    "#cervejaria",
+    "#microcervejaria",
+    "#cervejaartesanal",
+    "#mestrecervejeiro",
+    "#producaodecerveja",
+    "#gestaodecervejaria",
+    "#relatorios",
+    "#indicadores",
+    "#envase",
+    "#cervejeiro",
+    "#craftbeerbrasil",
+    "#softwareparacervejaria",
+    "#beerops"
+  ]
+}

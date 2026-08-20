@@ -1,0 +1,78 @@
+/* ============================================================
+   BeerOps — tokens da marca
+   Espelho de beerops-landing/src/pages/index.astro (bloco :root).
+   A arte tem que envelhecer junto com o site: se a identidade
+   mudar lá, atualize aqui e rode `npm run render:all`.
+   ============================================================ */
+
+:root{
+  --bg:#0E0D0B; --bg2:#131109; --surface:#181510; --surface2:#1F1B13;
+  --line:#2B261B; --line2:#3A3323;
+  --text:#F1EBDD; --muted:#A89E8A; --dim:#6E6654;
+  --amber:#F0A32B; --copper:#C86A15; --hop:#8FBF4D; --red:#E06A5A;
+  --glowrgb:240,163,43;
+  --mono:'Cascadia Code','Consolas',ui-monospace,'SF Mono',monospace;
+  --sans:'Segoe UI',system-ui,-apple-system,sans-serif;
+
+  /* --- geometria do slide --- */
+  --w:1080px; --h:1350px;
+  /* Padding generoso por dois motivos: o grid do perfil recorta o 4:5 em 3:4
+     (perde ~34px de cada lado) e o Instagram sobrepõe UI nas bordas. */
+  --pad:80px;
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+
+body{
+  width:var(--w);height:var(--h);
+  background:var(--bg);color:var(--text);
+  font-family:var(--sans);line-height:1.5;
+  -webkit-font-smoothing:antialiased;
+  overflow:hidden;position:relative;
+}
+
+/* ---- malha de fundo (mesma do .gridbg do hero) ---- */
+.grid{position:absolute;inset:0;pointer-events:none;
+  background-image:linear-gradient(var(--line) 1px,transparent 1px),
+                   linear-gradient(90deg,var(--line) 1px,transparent 1px);
+  background-size:60px 60px;opacity:.4}
+
+/* ---- brilho âmbar; .glow-tl / .glow-br movem a fonte de luz ---- */
+.glow{position:absolute;width:1000px;height:1000px;border-radius:50%;pointer-events:none;
+  background:radial-gradient(circle,rgba(var(--glowrgb),.16) 0%,rgba(var(--glowrgb),0) 62%);
+  right:-340px;top:-420px}
+.glow-bl{right:auto;top:auto;left:-380px;bottom:-460px}
+.glow-c{right:auto;bottom:auto;left:50%;top:50%;transform:translate(-50%,-50%);
+  background:radial-gradient(circle,rgba(var(--glowrgb),.13) 0%,rgba(var(--glowrgb),0) 60%)}
+
+/* ---- moldura de conteúdo ---- */
+.slide{position:relative;height:100%;padding:var(--pad);display:flex;flex-direction:column}
+
+/* ---- tipografia ---- */
+.eyebrow{font-family:var(--mono);font-size:1.05rem;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--amber)}
+.eyebrow::before{content:'// ';color:var(--dim)}
+
+.grad{background:linear-gradient(100deg,var(--amber) 10%,var(--copper) 90%);
+  -webkit-background-clip:text;background-clip:text;color:transparent}
+
+h1{font-size:4.6rem;line-height:1.04;letter-spacing:-.035em;font-weight:800;text-wrap:balance}
+h2{font-size:3.3rem;line-height:1.1;letter-spacing:-.03em;font-weight:800;text-wrap:balance}
+.lede{color:var(--muted);font-size:1.6rem;line-height:1.45;margin-top:28px}
+
+.center{flex:1;display:flex;flex-direction:column;justify-content:center}
+
+/* ---- rodapé de marca, presente em todo slide ---- */
+.brand{margin-top:auto;padding-top:30px;border-top:1px solid var(--line2);
+  display:flex;align-items:center;font-family:var(--mono);font-size:1rem;color:var(--dim)}
+.brand .logo{font-family:var(--sans);font-weight:900;font-size:1.45rem;
+  letter-spacing:-.03em;color:var(--text)}
+.brand .logo em{font-style:normal;color:#F0A32B}
+.brand .n{margin-left:auto;letter-spacing:.12em}
+
+/* ---- indicador de swipe (só na capa) ---- */
+.swipe{margin-left:auto;color:var(--amber);font-weight:700;letter-spacing:.12em}
+
+/* ---- acentos alternativos: quebram a monotonia do feed sem sair da paleta ---- */
+.a-hop{--amber:#8FBF4D;--copper:#5E8F2E;--glowrgb:143,191,77}
+.a-red{--amber:#E06A5A;--copper:#A8402F;--glowrgb:224,106,90}

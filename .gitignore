@@ -1,0 +1,6 @@
+node_modules/
+.tmp/
+
+# public/ e assets/shots/ SAO versionados de proposito:
+# o Cloudflare Pages serve public/ sem build command, entao os PNGs precisam
+# estar no repositorio. E o render depende das telas em assets/shots/.

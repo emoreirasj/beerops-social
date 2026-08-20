@@ -1,0 +1,116 @@
+{
+  "titulo": "Sua planilha não sabe quanto custa o seu litro",
+  "pilar": "ensina",
+  "status": "draft",
+  "scheduledAt": "2026-08-25T12:00:00-03:00",
+
+  "slides": [
+    {
+      "type": "capa",
+      "kicker": "custo de produção",
+      "title": "Sua planilha não sabe quanto custa o seu **litro**",
+      "lede": "E o erro quase sempre mora no mesmo lugar.",
+      "alt": "Capa do carrossel com o texto: sua planilha não sabe quanto custa o seu litro."
+    },
+    {
+      "type": "texto",
+      "kicker": "o que fica de fora",
+      "title": "Quatro custos que a planilha costuma esquecer",
+      "items": [
+        {
+          "text": "A cerveja que some entre o tanque e a lata",
+          "note": "Você rateia o custo pelo volume brassado, mas fatura só o que foi envasado."
+        },
+        {
+          "text": "O custo fixo do mês, rateado por lote",
+          "note": "Aluguel, energia, CIP e mão de obra não somem porque a planilha não tem coluna pra eles."
+        },
+        {
+          "text": "O vasilhame",
+          "note": "Lata, garrafa, PET e barril inox têm custo por litro bem diferente entre si."
+        },
+        {
+          "text": "As adições feitas depois da brassagem",
+          "note": "Dry hop, açúcar de priming e clarificante entram na adega e ficam fora da conta."
+        }
+      ],
+      "alt": "Lista de quatro custos esquecidos: perda no envase, custo fixo rateado, vasilhame e adições de adega."
+    },
+    {
+      "type": "dado",
+      "kicker": "lote AIP-05 · american ipa",
+      "value": "R$ 4,46",
+      "unit": "por litro",
+      "caption": "Custo real do lote depois de somar matéria-prima, adega, envase e rateio de custo fixo.",
+      "delta": "1.910 L ENVASADOS · CUSTO TOTAL R$ 8.324,70",
+      "alt": "Número grande: R$ 4,46 por litro, custo real do lote AIP-05 de American IPA."
+    },
+    {
+      "type": "dado",
+      "accent": "red",
+      "kicker": "a conta que ninguém faz",
+      "value": "90 L",
+      "unit": "de perda",
+      "caption": "4,5% do lote saiu do tanque e não chegou ao envase. São 90 litros produzidos que não viram faturamento.",
+      "delta": "AO CUSTO DE R$ 4,46/L, ISSO É R$ 401 NO LOTE",
+      "alt": "Número grande: 90 litros de perda, equivalente a 4,5 por cento do lote AIP-05."
+    },
+    {
+      "type": "antes-depois",
+      "kicker": "de onde vem a diferença",
+      "title": "A mesma brassagem, duas contas diferentes",
+      "leftLabel": "Na planilha",
+      "rightLabel": "No BeerOps",
+      "left": [
+        "Custo calculado sobre o volume brassado",
+        "Custo fixo do mês fica de fora do lote",
+        "Vasilhame entra por estimativa",
+        "Dry hop e priming não aparecem",
+        "Você descobre a perda no fim do mês"
+      ],
+      "right": [
+        "Custo calculado sobre o volume envasado",
+        "Custo fixo congelado no lote quando ele fecha",
+        "Custo por vasilhame separado por lata, garrafa, PET e inox",
+        "Adições de adega entram no custo do lote",
+        "A perda aparece no dia do envase"
+      ],
+      "alt": "Comparação lado a lado entre o cálculo de custo na planilha e no BeerOps."
+    },
+    {
+      "type": "shot",
+      "kicker": "dentro do sistema",
+      "title": "O relatório fecha junto com o lote",
+      "url": "app.beerops.com.br/delivery/AIP-05",
+      "image": "relatorio-aip05.png",
+      "note": "Custo por litro, perda, linha do tempo e fermentação na mesma tela — sem ninguém digitar de novo o que já foi apontado na produção.",
+      "alt": "Tela do relatório de produção do lote AIP-05 mostrando custo por litro, perda e linha do tempo."
+    },
+    {
+      "type": "cta",
+      "title": "Veja o custo do seu próximo lote",
+      "lede": "A demonstração é aberta, não pede cadastro e usa dados de exemplo.",
+      "url": "beerops.com.br",
+      "proof": "3 CERVEJARIAS OPERANDO EM PRODUÇÃO",
+      "alt": "Slide final com o endereço beerops.com.br e o convite para ver a demonstração."
+    }
+  ],
+
+  "caption": "Pergunta rápida: quanto custa o litro da sua última brassagem?\n\nA maioria das planilhas responde isso dividindo o custo dos insumos pelo volume brassado. O problema é que você não vende o volume brassado — vende o que sobrou depois da adega e do envase.\n\nNo lote AIP-05 do nosso demo, a diferença aparece assim:\n\n→ 1.910 L envasados\n→ 90 L de perda (4,5%)\n→ R$ 4,46 de custo por litro\n→ R$ 8.324,70 de custo total\n\nAqueles 90 litros você já pagou: malte, lúpulo, energia, mão de obra, CIP. Só não vai faturar.\n\nSomando o custo fixo rateado, o vasilhame certo e as adições de adega, o número muda o suficiente pra mudar o seu preço de venda.\n\nDeslize pra ver os quatro custos que costumam ficar de fora — e comente qual deles a sua planilha esquece.",
+
+  "hashtags": [
+    "#cervejaria",
+    "#microcervejaria",
+    "#cervejaartesanal",
+    "#mestrecervejeiro",
+    "#producaodecerveja",
+    "#gestaodecervejaria",
+    "#custodeproducao",
+    "#brassagem",
+    "#envase",
+    "#cervejeiro",
+    "#craftbeerbrasil",
+    "#gestaoindustrial",
+    "#beerops"
+  ]
+}
