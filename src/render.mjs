@@ -6,7 +6,10 @@
  *   npm run render:all
  *
  * Fonte:  posts/<slug>/post.json
- * Saida:  public/<slug>/01.png ...   (artefato de deploy do Cloudflare Pages)
+ * Saida:  public/<slug>/01.jpg ...   (artefato de deploy do Cloudflare Pages)
+ *
+ * JPEG e nao PNG: "JPEG is the only image format supported" na API de content
+ * publishing da Meta. PNG faz o modulo do Instagram falhar.
  *         posts/<slug>/caption.txt   (legenda pronta pra conferencia humana)
  *         public/feed.json           (fila que o cenario do Make consome)
  */
@@ -142,8 +145,8 @@ async function renderPost(browser, slug) {
     writeFileSync(tmp, html, 'utf8');
     await page.goto(pathToFileURL(tmp).href, { waitUntil: 'load' });
 
-    const arquivo = `${pad2(n)}.png`;
-    await page.screenshot({ path: join(outDir, arquivo), type: 'png' });
+    const arquivo = `${pad2(n)}.jpg`;
+    await page.screenshot({ path: join(outDir, arquivo), type: 'jpeg', quality: 92 });
     arquivos.push(arquivo);
     process.stdout.write(`  ${pad2(n)}/${pad2(total)} ${slide.type}\n`);
   }
@@ -168,7 +171,7 @@ function montaFeed() {
     const outDir = join(ROOT, 'public', slug);
     if (!existsSync(outDir)) continue;
     const post = JSON.parse(readFileSync(join(ROOT, 'posts', slug, 'post.json'), 'utf8'));
-    const imagens = readdirSync(outDir).filter((f) => f.endsWith('.png')).sort();
+    const imagens = readdirSync(outDir).filter((f) => f.endsWith('.jpg')).sort();
 
     posts.push({
       id: slug,

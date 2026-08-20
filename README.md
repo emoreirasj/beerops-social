@@ -2,12 +2,12 @@
 
 Gerador de carrosséis do Instagram do BeerOps. O conteúdo mora num `post.json`
 versionado, a arte é renderizada por Playwright a partir dos tokens da marca, e o
-Cloudflare Pages publica os PNGs numa URL pública que o Make consome pra postar.
+Cloudflare Pages publica os JPEGs numa URL pública que o Make consome pra postar.
 
 ```
 posts/<slug>/post.json          você escreve
         ↓  npm run render
-public/<slug>/01..NN.png        arte 1080×1350
+public/<slug>/01..NN.jpg        arte 1080×1350
 public/feed.json                fila que o Make lê
         ↓  git push
 Cloudflare Pages                URL pública
@@ -85,6 +85,8 @@ O `render.mjs` falha em vez de gerar arte quebrada quando:
 
 ## Formato e enquadramento
 
+- **JPEG, qualidade 92.** Não é preferência: *"JPEG is the only image format supported"*
+  na API de content publishing da Meta. PNG faz o módulo do Instagram falhar.
 - **1080×1350 (4:5)** em todos os slides. A Meta recorta o carrossel inteiro pelo
   primeiro slide, então misturar proporção estraga o post.
 - **Padding de 80px.** O grid do perfil recorta o 4:5 num 3:4, comendo ~34px de cada
@@ -94,7 +96,7 @@ O `render.mjs` falha em vez de gerar arte quebrada quando:
 
 ## Publicação
 
-Os PNGs e o `feed.json` ficam em `public/`, que é o diretório de saída do
+Os JPEGs e o `feed.json` ficam em `public/`, que é o diretório de saída do
 Cloudflare Pages. Um `git push` publica; nenhum build command é necessário.
 
 O cenário do Make roda 1×/dia e faz: `HTTP GET {baseUrl}/feed.json` → filtra
@@ -110,7 +112,7 @@ Detalhes e limites em [`docs/make.md`](docs/make.md).
 src/tokens.css          tokens da marca (espelho do index.astro da landing)
 src/shell.mjs           moldura do slide, escape e marcação mínima
 src/templates/*.mjs     um arquivo por tipo de slide
-src/render.mjs          post.json -> PNG + caption.txt + feed.json
+src/render.mjs          post.json -> JPEG + caption.txt + feed.json
 src/shots.mjs           /demo -> assets/shots/
 posts/<slug>/           post.json (fonte) + caption.txt (gerado)
 public/                 artefato de deploy — gerado, não editar à mão

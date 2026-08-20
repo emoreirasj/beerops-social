@@ -106,6 +106,9 @@ isso o cenário foi montado pela interface.
   Drive, Dropbox ou qualquer URL com sessão retorna erro no módulo 5.
 - **Todos os slides no mesmo aspect ratio**: a Meta recorta o carrossel inteiro pelo
   primeiro. Nossos templates são todos 1080×1350.
+- **Só JPEG.** A doc da Meta diz *"JPEG is the only image format supported"*. O
+  `render.mjs` gera `.jpg` em qualidade 92 desde 2026-08-20; antes gerava PNG, que
+  teria falhado no primeiro `Run once`.
 - **Alt-text:** o módulo do Make não expõe o campo. O `feed.json` traz `altTexts` na
   mesma ordem das `images`; aplicar pelo app depois de publicar (Editar →
   Configurações avançadas → Escrever texto alternativo).
@@ -116,7 +119,7 @@ isso o cenário foi montado pela interface.
 ## Fluxo de trabalho de um post
 
 1. Escreve `posts/<slug>/post.json` com `status: "draft"`.
-2. `npm run render -- <slug>` e confere os PNGs em `public/<slug>/`.
+2. `npm run render -- <slug>` e confere os JPEGs em `public/<slug>/`.
 3. Revisa `posts/<slug>/caption.txt`.
 4. Troca para `status: "ready"`, define `scheduledAt`, roda o render de novo.
 5. `git push`. O Cloudflare publica; o Make pega na execução das 12:05.
