@@ -7,7 +7,8 @@
   "scripts": {
     "render": "node src/render.mjs",
     "render:all": "node src/render.mjs --all",
-    "shots": "node src/shots.mjs"
+    "shots": "node src/shots.mjs",
+    "avatar": "node src/avatar.mjs"
   },
   "devDependencies": {
     "playwright": "1.60.0"
