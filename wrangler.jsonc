@@ -1,0 +1,15 @@
+{
+  // Worker de assets estaticos: nao ha codigo, so os arquivos de public/.
+  // A configuracao mora aqui de proposito — no painel do Cloudflare ela nao
+  // seria versionada, e config invisivel no painel ja causou um 404 silencioso
+  // no primeiro deploy da beerops-landing.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "beerops-social",
+  "compatibility_date": "2026-08-20",
+
+  "assets": {
+    // Os JPEGs dos carrosseis e o feed.json que o cenario do Make consome.
+    // Precisa ser publico: quem baixa a imagem e o servidor da Meta, nao o Make.
+    "directory": "./public"
+  }
+}

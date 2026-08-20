@@ -1,0 +1,4 @@
+# Os JPEGs precisam ser publicos porque o servidor da Meta baixa a imagem
+# na hora de publicar. Publico nao significa que precise estar no Google.
+User-agent: *
+Disallow: /
