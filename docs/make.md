@@ -22,7 +22,7 @@ próprio diálogo do Make descreve esse caso de uso.
 ## Estado do cenário
 
 ```
-HTTP 2                      GET https://beerops-social.pages.dev/feed.json
+HTTP 2                      GET https://beerops-social.emsj89.workers.dev/feed.json
   │                         No authentication · Parse response: Yes
   ▼
 Iterator 3                  Array: {{2.data.posts}}          ← um bundle por post
@@ -74,7 +74,7 @@ módulo 5 e o 6 conseguem referenciar o post.
 
 ## O que falta
 
-Só uma coisa: **publicar o feed**. `beerops-social.pages.dev/feed.json` ainda não
+Só uma coisa: **publicar o feed**. `beerops-social.emsj89.workers.dev/feed.json` ainda não
 existe — faltam o repo no GitHub e o projeto no Cloudflare Pages (output `public`,
 sem build command). Enquanto isso o módulo 2 responde 404 e não há teste de ponta a
 ponta possível.

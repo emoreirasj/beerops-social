@@ -2,7 +2,7 @@
 
 Gerador de carrosséis do Instagram do BeerOps. O conteúdo mora num `post.json`
 versionado, a arte é renderizada por Playwright a partir dos tokens da marca, e o
-Cloudflare Pages publica os JPEGs numa URL pública que o Make consome pra postar.
+o Cloudflare publica os JPEGs numa URL pública que o Make consome pra postar.
 
 ```
 posts/<slug>/post.json          você escreve
@@ -10,7 +10,7 @@ posts/<slug>/post.json          você escreve
 public/<slug>/01..NN.jpg        arte 1080×1350
 public/feed.json                fila que o Make lê
         ↓  git push
-Cloudflare Pages                URL pública
+Cloudflare (Worker)             URL pública
         ↓  cenário do Make (1×/dia)
 Instagram                       carrossel publicado
 ```
@@ -23,8 +23,8 @@ Instagram                       carrossel publicado
   Se a identidade mudar, atualize os tokens e rode `npm run render:all` — todos os
   posts antigos saem repintados.
 - **URL pública é requisito, não escolha.** O módulo Instagram do Make manda a Meta
-  buscar a imagem. Google Drive e Dropbox não servem; Cloudflare Pages serve, é
-  grátis, e o repositório pode continuar privado.
+  buscar a imagem — não existe upload de binário na API. Google Drive e Dropbox não
+  servem. O Cloudflare serve, é grátis, e o repositório pode continuar privado.
 
 ## Comandos
 
@@ -96,8 +96,14 @@ O `render.mjs` falha em vez de gerar arte quebrada quando:
 
 ## Publicação
 
-Os JPEGs e o `feed.json` ficam em `public/`, que é o diretório de saída do
-Cloudflare Pages. Um `git push` publica; nenhum build command é necessário.
+Os JPEGs e o `feed.json` ficam em `public/`, servidos por um Worker de assets
+estáticos (`wrangler.jsonc`, `assets.directory = "./public"`). Um `git push` em `main`
+publica; não há build command.
+
+URL: **https://beerops-social.emsj89.workers.dev**
+
+Se ela mudar, atualize `baseUrl` no `config.json` e rode `npm run render:all` — as URLs
+das imagens ficam gravadas dentro do `feed.json`, e a Meta usa exatamente essas.
 
 O cenário do Make roda 1×/dia e faz: `HTTP GET {baseUrl}/feed.json` → filtra
 `status == "ready"` e `scheduledAt <= agora` → confere o `id` num Data Store pra
