@@ -1,8 +1,8 @@
 {
   "titulo": "Lata, garrafa, PET e inox não custam a mesma coisa",
   "pilar": "ensina",
-  "status": "draft",
-  "scheduledAt": "2026-09-01T12:00:00-03:00",
+  "status": "ready",
+  "scheduledAt": "2026-08-20T12:00:00-03:00",
   "nota": "Depende do deploy da secao Custo por Vasilhame (ver memoria project_container_costs). Nao ha slide de produto porque a secao ainda nao esta no /demo — o post fala do conceito, e o BeerOps so aparece no CTA.",
 
   "slides": [

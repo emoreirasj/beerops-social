@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T19:02:28.630Z",
+  "generatedAt": "2026-08-20T19:28:33.987Z",
   "baseUrl": "https://beerops-social.emsj89.workers.dev",
   "posts": [
     {
@@ -28,8 +28,8 @@
     },
     {
       "id": "2026-08-28-perda-no-envase",
-      "status": "draft",
-      "scheduledAt": "2026-08-28T12:00:00-03:00",
+      "status": "ready",
+      "scheduledAt": "2026-08-20T12:00:00-03:00",
       "caption": "Existe um detalhe de cálculo que muda o custo de todo lote da sua cervejaria, e ele cabe numa pergunta: você divide o custo por quais litros?\n\nQuando a sessão de envase abre, o sistema registra o volume que saiu do tanque. Quando ela fecha, existe outro número: a soma do que de fato foi enchido em lata, garrafa, PET e barril.\n\nEsses dois números não batem. A diferença é a perda de envase — espuma, purga, ajuste de enchedora, fundo de tanque.\n\nNum lote de 1.000 litros com 27 de perda:\n\n→ dividindo pelos litros do tanque: R$ 7,30/L\n→ dividindo pelos litros envasados: R$ 7,50/L\n\nOs 20 centavos de diferença são a perda sendo paga por quem sobrou. Na primeira conta ela some — e some justamente no lote em que ela foi maior, que é quando você mais precisaria enxergar.\n\nQual foi a maior perda de envase que você já teve numa sessão? Conta aí.\n\n.\n.\n.\n#cervejaria #microcervejaria #cervejaartesanal #envase #mestrecervejeiro #producaodecerveja #gestaodecervejaria #custodeproducao #cervejeiro #craftbeerbrasil #perdadeproducao #beerops",
       "images": [
         "https://beerops-social.emsj89.workers.dev/2026-08-28-perda-no-envase/01.jpg",
@@ -52,8 +52,8 @@
     },
     {
       "id": "2026-09-01-custo-por-vasilhame",
-      "status": "draft",
-      "scheduledAt": "2026-09-01T12:00:00-03:00",
+      "status": "ready",
+      "scheduledAt": "2026-08-20T12:00:00-03:00",
       "caption": "Um lote de 2.000 litros vira lata, garrafa, PET e barril inox. Quanto custa o litro de cada um?\n\nSe a resposta for \"o mesmo\", tem dinheiro escondido em algum formato.\n\nO custo do litro se divide em duas partes. A primeira é comum: insumos e custo fixo do lote, rateados pelo total envasado. A segunda muda em cada linha — é o material da embalagem. Lata puxa tampa e rótulo. Garrafa puxa caixa. Barril PET é descartável e entra inteiro no custo.\n\nO barril inox é o caso que confunde: ele não consome material nenhum, porque é ativo retornável. Só que isso não faz dele gratuito. Num lote de referência, o custo fixo rateado colocou R$ 1,03 no litro do inox, dentro de R$ 2,33 no total. Higienização, depreciação e logística de retorno estão pagos ali dentro.\n\nE o número que interessa para formar preço não é o custo por litro: é o custo por unidade. Ninguém vende litro — vende a lata de 473 ml e o barril de 30.\n\nVocê precifica cada formato separado ou aplica a mesma margem em todos?\n\n.\n.\n.\n#cervejaria #microcervejaria #cervejaartesanal #envase #embalagem #mestrecervejeiro #producaodecerveja #gestaodecervejaria #custodeproducao #precificacao #cervejeiro #craftbeerbrasil #beerops",
       "images": [
         "https://beerops-social.emsj89.workers.dev/2026-09-01-custo-por-vasilhame/01.jpg",
@@ -74,8 +74,8 @@
     },
     {
       "id": "2026-09-04-do-tanque-ao-relatorio",
-      "status": "draft",
-      "scheduledAt": "2026-09-04T12:00:00-03:00",
+      "status": "ready",
+      "scheduledAt": "2026-08-20T12:00:00-03:00",
       "caption": "Três telas, um lote, nenhuma redigitação.\n\n1. Adega — o cervejeiro aponta densidade e temperatura do tanque. O sistema calcula atenuação e ABV estimado, e avisa quando um tanque está sem leitura há dias.\n\n2. Envase — a sessão fecha e o lote entra na lista com volume, perda e data. Nada disso é digitado de novo: sai do que já foi apontado.\n\n3. Relatório — custo por litro, linha do tempo, fermentação e adega na mesma tela, com PDF pronto.\n\nO lote AIP-05 da demonstração levou 23 dias entre brassagem e envase: 9 horas de produção, 21 dias de adega, 5 horas de envase. Esses números não foram preenchidos por ninguém — são a diferença entre os apontamentos.\n\nÉ isso que muda quando o sistema é o mesmo em que a produção acontece, em vez de uma planilha que alguém alimenta depois.\n\nHoje, quanto tempo você leva pra saber o custo de um lote que acabou de ser envasado?\n\n.\n.\n.\n#cervejaria #microcervejaria #cervejaartesanal #mestrecervejeiro #producaodecerveja #gestaodecervejaria #adega #fermentacao #envase #cervejeiro #craftbeerbrasil #softwareparacervejaria #beerops",
       "images": [
         "https://beerops-social.emsj89.workers.dev/2026-09-04-do-tanque-ao-relatorio/01.jpg",
@@ -98,8 +98,8 @@
     },
     {
       "id": "2026-09-08-relatorio-mensal",
-      "status": "draft",
-      "scheduledAt": "2026-09-08T12:00:00-03:00",
+      "status": "ready",
+      "scheduledAt": "2026-08-20T12:00:00-03:00",
       "caption": "Todo dia 1º, às 6 da manhã, o relatório do mês anterior já existe.\n\nLitros envasados, lotes concluídos, comparação com o mês passado, ocorrências registradas. Com PDF pronto pra mandar pro contador, pro sócio ou pra quem financiou o tanque novo.\n\nNa demonstração, junho fechou assim:\n\n→ 11,2 mil litros envasados\n→ 7 lotes concluídos\n→ 21% a mais de envase que maio\n→ 2 alertas no período\n\nO ponto não é o relatório em si — é ele não depender de alguém lembrar. Fechamento que compete com a produção pela mesma semana costuma perder, e aí o histórico da cervejaria vira uma pasta com três meses soltos em vez de uma série que dá pra comparar.\n\nQuando o mês seguinte começa, o anterior já está fechado do mesmo jeito que todos os outros.\n\nVocê fecha o mês da sua cervejaria com que frequência, de verdade?\n\n.\n.\n.\n#cervejaria #microcervejaria #cervejaartesanal #mestrecervejeiro #producaodecerveja #gestaodecervejaria #relatorios #indicadores #envase #cervejeiro #craftbeerbrasil #softwareparacervejaria #beerops",
       "images": [
         "https://beerops-social.emsj89.workers.dev/2026-09-08-relatorio-mensal/01.jpg",
