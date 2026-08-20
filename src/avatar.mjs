@@ -28,10 +28,13 @@ body{width:${S}px;height:${S}px;display:flex;align-items:center;justify-content:
 /* anel interno: sem ele a arte encosta na borda do recorte circular */
 .ring{position:absolute;inset:54px;border-radius:50%;
       border:3px solid rgba(240,163,43,.28)}
-.mark{position:relative;text-align:center;line-height:.86;letter-spacing:-.05em;
-      font-weight:900;font-size:15.5rem}
+/* line-height folgado e tamanho menor: com .86 e 15.5rem o descendente do "p"
+   de "Ops" encostava na curva do recorte circular e parecia cortado */
+.mark{position:relative;text-align:center;line-height:.98;letter-spacing:-.05em;
+      font-weight:900;font-size:14rem}
 .mark .a{display:block;color:var(--text)}
-.mark .b{display:block;background:linear-gradient(100deg,var(--amber) 15%,var(--copper) 90%);
+.mark .b{display:block;padding-bottom:.10em;
+         background:linear-gradient(100deg,var(--amber) 15%,var(--copper) 90%);
          -webkit-background-clip:text;background-clip:text;color:transparent}
 </style></head><body>
   <div class="grid"></div><div class="glow"></div><div class="ring"></div>
