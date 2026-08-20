@@ -44,7 +44,7 @@ Crie `posts/<AAAA-MM-DD-slug>/post.json`. Campos do post:
 
 | campo | efeito |
 |---|---|
-| `status` | `draft` (padrão) ou `ready`. **O Make só publica `ready`.** |
+| `status` | `draft` → `ready` → `published`. **O Make só publica `ready`.** Depois de publicar, marque `published`: é esse campo, e não o Data Store, que garante que o post não vá ao ar duas vezes. |
 | `scheduledAt` | ISO com fuso, ex. `2026-08-25T12:00:00-03:00` |
 | `slides` | 1 a 10 — a API de carrossel da Meta não passa de 10 |
 | `caption` | legenda; o total com hashtags precisa caber em 2200 caracteres |

@@ -1,9 +1,8 @@
 {
   "titulo": "Do tanque ao relatório sem redigitar nada",
   "pilar": "produto",
-  "status": "ready",
+  "status": "published",
   "scheduledAt": "2026-08-20T12:00:00-03:00",
-
   "slides": [
     {
       "type": "capa",
@@ -77,9 +76,7 @@
       "alt": "Slide final com o endereço beerops.com.br e o convite para ver a demonstração."
     }
   ],
-
   "caption": "Três telas, um lote, nenhuma redigitação.\n\n1. Adega — o cervejeiro aponta densidade e temperatura do tanque. O sistema calcula atenuação e ABV estimado, e avisa quando um tanque está sem leitura há dias.\n\n2. Envase — a sessão fecha e o lote entra na lista com volume, perda e data. Nada disso é digitado de novo: sai do que já foi apontado.\n\n3. Relatório — custo por litro, linha do tempo, fermentação e adega na mesma tela, com PDF pronto.\n\nO lote AIP-05 da demonstração levou 23 dias entre brassagem e envase: 9 horas de produção, 21 dias de adega, 5 horas de envase. Esses números não foram preenchidos por ninguém — são a diferença entre os apontamentos.\n\nÉ isso que muda quando o sistema é o mesmo em que a produção acontece, em vez de uma planilha que alguém alimenta depois.\n\nHoje, quanto tempo você leva pra saber o custo de um lote que acabou de ser envasado?",
-
   "hashtags": [
     "#cervejaria",
     "#microcervejaria",

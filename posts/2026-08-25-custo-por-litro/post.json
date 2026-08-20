@@ -1,9 +1,8 @@
 {
   "titulo": "Sua planilha não sabe quanto custa o seu litro",
   "pilar": "ensina",
-  "status": "ready",
+  "status": "published",
   "scheduledAt": "2026-08-20T12:00:00-03:00",
-
   "slides": [
     {
       "type": "capa",
@@ -95,9 +94,7 @@
       "alt": "Slide final com o endereço beerops.com.br e o convite para ver a demonstração."
     }
   ],
-
   "caption": "Pergunta rápida: quanto custa o litro da sua última brassagem?\n\nA maioria das planilhas responde isso dividindo o custo dos insumos pelo volume brassado. O problema é que você não vende o volume brassado — vende o que sobrou depois da adega e do envase.\n\nNo lote AIP-05 do nosso demo, a diferença aparece assim:\n\n→ 1.910 L envasados\n→ 90 L de perda (4,5%)\n→ R$ 4,46 de custo por litro\n→ R$ 8.324,70 de custo total\n\nAqueles 90 litros você já pagou: malte, lúpulo, energia, mão de obra, CIP. Só não vai faturar.\n\nSomando o custo fixo rateado, o vasilhame certo e as adições de adega, o número muda o suficiente pra mudar o seu preço de venda.\n\nDeslize pra ver os quatro custos que costumam ficar de fora — e comente qual deles a sua planilha esquece.",
-
   "hashtags": [
     "#cervejaria",
     "#microcervejaria",
