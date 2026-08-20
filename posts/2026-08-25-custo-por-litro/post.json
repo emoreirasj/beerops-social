@@ -1,8 +1,8 @@
 {
   "titulo": "Sua planilha não sabe quanto custa o seu litro",
   "pilar": "ensina",
-  "status": "draft",
-  "scheduledAt": "2026-08-25T12:00:00-03:00",
+  "status": "ready",
+  "scheduledAt": "2026-08-20T12:00:00-03:00",
 
   "slides": [
     {
